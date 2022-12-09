@@ -1,8 +1,7 @@
 import boto3
 
 # Set the AWS access and secret keys
-AWS_ACCESS_KEY = "AKIAUGNW4XQYCD4GFXHV"
-AWS_SECRET_KEY = "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"
+
 
 EC2_REGION = "eu-west-2"
 # create a new EC2 client
