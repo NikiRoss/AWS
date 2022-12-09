@@ -1,12 +1,5 @@
 import boto3
 import os
-import jenkins
-
-jenkins_server = jenkins.Jenkins(
-    'localhost://8080',
-    username='admin',
-    password='3716fcde353247038c794bfa740935c2'
-    )
 
 # Set the AWS access and secret keys
 AWS_ACCESS_KEY = os.environ["ACCESS_KEY_ID"]
