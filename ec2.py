@@ -1,6 +1,10 @@
 import boto3
+import os
+import requests
 
 # Set the AWS access and secret keys
+AWS_ACCESS_KEY = os.environ["ACCESS_KEY_ID"]
+AWS_SECRET_KEY = os.environ["SECRET_ACCESS_KEY"] 
 
 
 # Set the region and create an EC2 client
